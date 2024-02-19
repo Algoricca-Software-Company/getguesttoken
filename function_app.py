@@ -4,6 +4,7 @@ import time
 import requests
 import azure.functions as func
 
+
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
 @app.route(route="GetGuestToken")
